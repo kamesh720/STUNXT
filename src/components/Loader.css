@@ -1,0 +1,34 @@
+/* src/components/Loader.css */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* height: auto; */
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  .logo {
+    width: 321px;
+    height: 67px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loader-logo {
+    width: 37px; /* Adjust the size as needed */
+    height: 37px; /* Adjust the size as needed */
+    margin-bottom: 150px;
+    animation: spin 2s linear infinite; /* Add a spinning animation */
+    
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

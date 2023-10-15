@@ -1,0 +1,48 @@
+.otpVerificationFooter {
+    bottom: 30%;
+    position: fixed;
+
+}
+
+.dialPadOtpPage {
+    color: black;
+    width: 106px;
+    height: 50px;
+    margin-top: 18px;
+}
+
+
+@media (max-width:380px) and (max-height:670px) {
+    .otpVerificationFooter {
+        margin-top: 75px;
+    }
+
+    .dialPadOtpPage {
+        width: 80px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+
+    }
+}
+
+@media (max-height:750px)and (min-height:700px) {
+    .otpVerificationFooter {
+        margin-top: 105px;
+    }
+
+    .dialPadOtpPage {
+        width: 85px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 5px;
+
+    }
+}
+
+@media (min-width:400px) {
+
+    .otpVerificationFooter {
+        margin-top: 205px;
+    }
+}

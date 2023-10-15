@@ -1,0 +1,74 @@
+.verificationFooter {
+    bottom: 30%;
+    position: fixed;
+    width: 100%;
+}
+
+
+.confirmNumber {
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 40px;
+    width: 300px;
+
+}
+
+.dialPadNumbers {
+    color: black;
+    width: 106px;
+    height: 50px;
+    margin-top: 18px;
+
+}
+
+.inputNumberSuccess {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 22px;
+    margin-top: -10px;
+    background-color: white;
+}
+
+/* @media (max-width:380px) and (max-height:670px) {
+    .verificationFooter {
+        margin-top: 55px;
+    }
+
+    .dialPadNumbers {
+        width: 80px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .confirmNumber {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width:380px) and (min-height:700px) {
+    .verificationFooter {
+        margin-top: 90px;
+    }
+
+    .dialPadNumbers {
+        width: 85px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 5px;
+
+    }
+
+    .confirmNumber {
+        margin-top: 200px;
+    }
+}
+
+@media (min-width:400px) {
+    .verificationFooter {
+        margin-top: 185px;
+    }
+} */

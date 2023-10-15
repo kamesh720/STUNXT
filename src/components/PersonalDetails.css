@@ -1,0 +1,90 @@
+.formDetails {
+    margin-top: 40px;
+}
+
+.formInputHeight {
+    height: 62px;
+    border-color: #d2cfcf;
+}
+
+.formInputheight {
+    height: 62px;
+    border-color: #00d970;
+}
+
+.form-control:focus {
+    border-color: #d2cfcf;
+    box-shadow: none;
+}
+
+.formInputRadio {
+    margin-left: 40px;
+    margin-top: 22px;
+}
+
+/* radio background color change */
+input[type=radio] {
+    appearance: none;
+    padding: 6px;
+    border: 1px solid #d2cfcf;
+    border-radius: 50%;
+
+}
+
+input[type=radio]:checked {
+    background-color: #00d970;
+    border: 1px solid #00d970;
+}
+
+.formdata {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 22px;
+    margin-top: -10px;
+    background-color: white;
+}
+
+
+.detailsPage1Filling {
+    background: linear-gradient(to right, #00d970 50%, #d2cfcf 50%);
+    height: 10px;
+    width: 90px;
+}
+
+.detailsPage2Filling {
+    background-color: #00d970;
+    height: 10px;
+    width: 90px;
+}
+
+.formPageFooter {
+    margin-top: 135px;
+}
+
+@media (max-width:380px) {
+
+    .formDetails {
+        margin-top: 10px;
+    }
+
+    .formInputHeight {
+        height: 40px;
+    }
+
+    .formInputheight {
+        height: 40px;
+    }
+
+    .formInputRadio {
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+
+    .formPageFooter {
+        margin-top: 110px;
+    }
+
+}

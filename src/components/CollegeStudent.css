@@ -1,0 +1,9 @@
+.collegeStudentPageCtnBtn {
+    margin-top: 150px;
+}
+
+@media (max-width:380px) {
+    .collegeStudentPageCtnBtn {
+        margin-top: 100px;
+    }
+}

@@ -1,0 +1,17 @@
+/* .fixed-elements {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+} */
+
+.scrollable-content {
+  overflow-y: auto;
+  max-height: calc(100vh - 100px);
+  padding-bottom: 100px;
+}
+
+.scrollable-content::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
